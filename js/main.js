@@ -17,11 +17,11 @@ function activation(index, lists){
 }
 
 //이미지 넣기
-document.getElementById("img1").style.backgroundImage = `url(img/member1.jpg)`;
-document.getElementById("img2").style.backgroundImage = `url(img/member2.jpg)`;
-document.getElementById("img3").style.backgroundImage = `url(img/member3.jpg)`;
-document.getElementById("img4").style.backgroundImage = `url(img/member4.jpg)`;
-document.getElementById("img5").style.backgroundImage = `url(img/member5.jpg)`;
+document.getElementById("img1").style.backgroundImage = `url(img/member1.png)`;
+document.getElementById("img2").style.backgroundImage = `url(img/member2.png)`;
+document.getElementById("img3").style.backgroundImage = `url(img/member3.png)`;
+document.getElementById("img4").style.backgroundImage = `url(img/member4.png)`;
+document.getElementById("img5").style.backgroundImage = `url(img/member5.png)`;
 
 //article의 개수만큼 반복 
 for(let el of lists) {  
