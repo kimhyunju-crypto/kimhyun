@@ -16,13 +16,20 @@ function activation(index, lists){
     lists[index].classList.add("on");
 }
 
+//이미지 넣기
+document.getElementById("img1").style.backgroundImage = `url(img/member1.jpg)`;
+document.getElementById("img2").style.backgroundImage = `url(img/member2.jpg)`;
+document.getElementById("img3").style.backgroundImage = `url(img/member3.jpg)`;
+document.getElementById("img4").style.backgroundImage = `url(img/member4.jpg)`;
+document.getElementById("img5").style.backgroundImage = `url(img/member5.jpg)`;
+
 //article의 개수만큼 반복 
 for(let el of lists) {  
     let pic = el.querySelector(".pic");  
 
     //각 article 요소를 45도씩 회전하고 아래로 배치
     el.style.transform = `rotate(${deg* i}deg) translateY(-100vh)`;
-    pic.style.backgroundImage = `url(./img/member${i+1}.jpg)`;
+    //pic.style.backgroundImage = `url(img/member${i+1}.jpg)`;
     //pic.style.backgroundImage = `url(img/test.png)`;
     i++; 
 
