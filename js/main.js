@@ -22,8 +22,8 @@ for(let el of lists) {
 
     //각 article 요소를 45도씩 회전하고 아래로 배치
     el.style.transform = `rotate(${deg* i}deg) translateY(-100vh)`;
-    //pic.style.backgroundImage = `url(./img/member${i+1}.jpg)`;
-    pic.style.backgroundImage = `url(img/test.png)`;
+    pic.style.backgroundImage = `url(./img/member${i+1}.jpg)`;
+    //pic.style.backgroundImage = `url(img/test.png)`;
     i++; 
 
     //각 article 요소 안쪽의 재생, 정지, 처음부터 재생 버튼을 변수에 저장
